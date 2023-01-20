@@ -1,25 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import logo from "./logo.svg";
+import { useContext, useState } from "react";
+import TodoPage from "./features/todos/TodoPage";
+import ThemeProvider from "./context/ThemeContext";
+// import TodoPage from "./todos/TodoPage";
+// import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider>
+      <div className="App">
+        <TodoPage />
+      </div>
+    </ThemeProvider>
   );
 }
 

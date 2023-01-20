@@ -1,0 +1,54 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "mengoding",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "main",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "tidur",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "title": "begadang",
+      "completed": false
+    },
+    {
+      "id": 5,
+      "title": "nugas",
+      "completed": false
+    },
+    {
+      "id": 1674119615224,
+      "title": "c",
+      "completed": false
+    },
+    {
+      "id": 1674120109875,
+      "title": "b",
+      "completed": false
+    },
+    {
+      "id": 1674120112671,
+      "title": "bz",
+      "completed": false
+    },
+    {
+      "id": 1674131203926,
+      "title": "af",
+      "completed": false
+    },
+    {
+      "id": 1674209558932,
+      "title": "wakwa",
+      "completed": false
+    }
+  ]
+}
